@@ -1,0 +1,74 @@
+[
+  {
+    "name": "A",
+    "countries": [
+      { "name": "Qatar", "code": "qa" },
+      { "name": "Ecuador", "code": "ec" },
+      { "name": "Senegal", "code": "sn" },
+      { "name": "Netherlands", "code": "nl" }
+    ]
+  },
+  {
+    "name": "B",
+    "countries": [
+      { "name": "England", "code": "gb-eng" },
+      { "name": "Iran", "code": "ir" },
+      { "name": "USA", "code": "us" },
+      { "name": "Wales", "code": "gb-wls" }
+    ]
+  },
+  {
+    "name": "C",
+    "countries": [
+      { "name": "Argentina", "code": "ar" },
+      { "name": "Saudi Arabia", "code": "sa" },
+      { "name": "Mexico", "code": "mx" },
+      { "name": "Poland", "code": "pl" }
+    ]
+  },
+  {
+    "name": "D",
+    "countries": [
+      { "name": "France", "code": "fr" },
+      { "name": "Australia", "code": "au" },
+      { "name": "Denmark", "code": "dk" },
+      { "name": "Tunisia", "code": "tn" }
+    ]
+  },
+  {
+    "name": "E",
+    "countries": [
+      { "name": "Spain", "code": "es" },
+      { "name": "Costa Rica", "code": "cr" },
+      { "name": "Germany", "code": "de" },
+      { "name": "Japan", "code": "jp" }
+    ]
+  },
+  {
+    "name": "F",
+    "countries": [
+      { "name": "Belgium", "code": "be" },
+      { "name": "Canada", "code": "ca" },
+      { "name": "Morocco", "code": "ma" },
+      { "name": "Croatia", "code": "cr" }
+    ]
+  },
+  {
+    "name": "G",
+    "countries": [
+      { "name": "Brazil", "code": "br" },
+      { "name": "Serbia", "code": "rs" },
+      { "name": "Switzerland", "code": "ch" },
+      { "name": "Cameroon", "code": "cm" }
+    ]
+  },
+  {
+    "name": "H",
+    "countries": [
+      { "name": "Portugal", "code": "pt" },
+      { "name": "Ghana", "code": "gh" },
+      { "name": "Uruguay", "code": "uy" },
+      { "name": "South Korea", "code": "kr" }
+    ]
+  }
+]
