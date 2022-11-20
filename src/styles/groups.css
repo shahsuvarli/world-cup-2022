@@ -10,7 +10,7 @@
 }
 
 .group-container {
-  border: 1px solid black;
+  border: 0.5px solid black;
   border-radius: 5px;
   width: 160px;
   height: 150px;
@@ -19,6 +19,7 @@
   position: relative;
   justify-content: center;
   margin: 5px 0;
+  background-color: rgb(230, 229, 229);
 }
 
 .countries-container {
