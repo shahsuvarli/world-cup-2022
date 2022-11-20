@@ -6,6 +6,24 @@
       { "name": "Ecuador", "code": "ec" },
       { "name": "Senegal", "code": "sn" },
       { "name": "Netherlands", "code": "nl" }
+    ],
+    "games": [
+      {
+        "p1": { "name": "Qatar", "code": "qa" },
+        "p1r": 0,
+        "p2": { "name": "Ecuador", "code": "ec" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": { "name": "Senegal", "code": "sn" },
+        "p1r": 0,
+        "p2": { "name": "Netherlands", "code": "nl" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   },
   {
@@ -15,6 +33,24 @@
       { "name": "Iran", "code": "ir" },
       { "name": "USA", "code": "us" },
       { "name": "Wales", "code": "gb-wls" }
+    ],
+    "games": [
+      {
+        "p1": { "name": "England", "code": "gb-eng" },
+        "p1r": 0,
+        "p2": { "name": "Iran", "code": "ir" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": { "name": "USA", "code": "us" },
+        "p1r": 0,
+        "p2": { "name": "Wales", "code": "gb-wls" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   },
   {
@@ -24,6 +60,24 @@
       { "name": "Saudi Arabia", "code": "sa" },
       { "name": "Mexico", "code": "mx" },
       { "name": "Poland", "code": "pl" }
+    ],
+    "games": [
+      {
+        "p1": { "name": "Argentina", "code": "ar" },
+        "p1r": 0,
+        "p2": { "name": "Saudi Arabia", "code": "sa" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": { "name": "Mexico", "code": "mx" },
+        "p1r": 0,
+        "p2": { "name": "Poland", "code": "pl" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   },
   {
@@ -33,6 +87,24 @@
       { "name": "Australia", "code": "au" },
       { "name": "Denmark", "code": "dk" },
       { "name": "Tunisia", "code": "tn" }
+    ],
+    "games": [
+      {
+        "p1": { "name": "Denmark", "code": "dk" },
+        "p1r": 0,
+        "p2": { "name": "Tunisia", "code": "tn" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": { "name": "France", "code": "fr" },
+        "p1r": 0,
+        "p2": { "name": "Australia", "code": "au" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   },
   {
@@ -42,6 +114,24 @@
       { "name": "Costa Rica", "code": "cr" },
       { "name": "Germany", "code": "de" },
       { "name": "Japan", "code": "jp" }
+    ],
+    "games": [
+      {
+        "p1": { "name": "Germany", "code": "de" },
+        "p1r": 0,
+        "p2": { "name": "Japan", "code": "jp" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": { "name": "Spain", "code": "es" },
+        "p1r": 0,
+        "p2": { "name": "Costa Rica", "code": "cr" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   },
   {
@@ -51,6 +141,24 @@
       { "name": "Canada", "code": "ca" },
       { "name": "Morocco", "code": "ma" },
       { "name": "Croatia", "code": "hr" }
+    ],
+    "games": [
+      {
+        "p1": { "name": "Morocco", "code": "ma" },
+        "p1r": 0,
+        "p2": { "name": "Croatia", "code": "hr" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": { "name": "Belgium", "code": "be" },
+        "p1r": 0,
+        "p2": { "name": "Canada", "code": "ca" },
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   },
   {
@@ -60,6 +168,24 @@
       { "name": "Serbia", "code": "rs" },
       { "name": "Switzerland", "code": "ch" },
       { "name": "Cameroon", "code": "cm" }
+    ],
+    "games": [
+      {
+        "p1": "Qatar",
+        "p1r": 0,
+        "p2": "Ecuador",
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": "Senegal",
+        "p1r": 0,
+        "p2": "Netherlands",
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   },
   {
@@ -69,6 +195,24 @@
       { "name": "Ghana", "code": "gh" },
       { "name": "Uruguay", "code": "uy" },
       { "name": "South Korea", "code": "kr" }
+    ],
+    "games": [
+      {
+        "p1": "Qatar",
+        "p1r": 0,
+        "p2": "Ecuador",
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "not-started"
+      },
+      {
+        "p1": "Senegal",
+        "p1r": 0,
+        "p2": "Netherlands",
+        "p2r": 0,
+        "datetime": "01-01-2022",
+        "status": "ongoing"
+      }
     ]
   }
 ]

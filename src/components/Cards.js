@@ -1,13 +1,24 @@
 import groups from "../assets/groups.json";
-import React from "react";
+import React, { useContext } from "react";
 import "../styles/groups.css";
+import { GameContext } from "../context/GameContextProvider";
 
 function Cards() {
+  const { setGames } = useContext(GameContext);
+
+  const handleGames = (games) => {
+    setGames(games);
+  };
+
   return (
     <div className="groups-container">
       {groups.map((group) => {
         return (
-          <div key={group.name} className="group-container">
+          <div
+            key={group.name}
+            className="group-container"
+            onClick={() => handleGames(group.games)}
+          >
             <span className="group-name">{group.name}</span>
             <div className="countries-container">
               {group.countries.map((country, index) => {

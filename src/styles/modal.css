@@ -1,0 +1,36 @@
+.modal {
+  position: absolute;
+  background-color: rgba(188, 143, 143, 0.5);
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.modal-games-container {
+  width: 90%;
+  height: 70%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.match {
+  height: 60px;
+  width: 90%;
+  text-align: center;
+  font-size: 27px;
+}
