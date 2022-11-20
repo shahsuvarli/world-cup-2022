@@ -12,7 +12,7 @@
         "p1": { "name": "Qatar", "code": "qa" },
         "p1r": 0,
         "p2": { "name": "Ecuador", "code": "ec" },
-        "p2r": 0,
+        "p2r": 2,
         "datetime": "01-01-2022",
         "status": "not-started"
       },
