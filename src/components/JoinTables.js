@@ -8,16 +8,19 @@ function JoinTables() {
       {groups.map((group) => {
         return (
           <div key={group.name} className="group-container">
-            {/* <p className="group-name">{group.name}</p> */}
+            <span className="group-name">{group.name}</span>
             <div className="countries-container">
-              {group.countries.map((country) => {
+              {group.countries.map((country, index) => {
                 return (
-                  <div key={country.name} className="country-container">
+                  <div
+                    key={country.name}
+                    className="country-container"
+                    id={`id-${index}`}
+                  >
                     <img
                       src={`https://raw.githubusercontent.com/hampusborgos/country-flags/ba2cf4101bf029d2ada26da2f95121de74581a4d/svg/${country.code}.svg`}
                       alt={country.name}
                     />
-                    {/* <span>{country.name} (2)</span> */}
                   </div>
                 );
               })}
