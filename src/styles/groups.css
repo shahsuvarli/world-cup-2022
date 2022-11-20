@@ -13,7 +13,7 @@
   border: 1px solid black;
   border-radius: 5px;
   width: 160px;
-  height: 140px;
+  height: 150px;
   display: flex;
   align-items: center;
   position: relative;
@@ -66,5 +66,5 @@
 
 img {
   border: 0.5px solid black;
-  width: 70px;
+  width: 100%;
 }

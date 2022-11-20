@@ -1,11 +1,11 @@
-import JoinTables from "./components/JoinTables";
+import Cards from "./components/Cards";
 import "./styles//App.css";
 
 function App() {
   return (
     <div className="main">
       <h1>WC Qatar 2022</h1>
-      <JoinTables />
+      <Cards />
     </div>
   );
 }

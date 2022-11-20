@@ -2,7 +2,7 @@ import groups from "../assets/groups.json";
 import React from "react";
 import "../styles/groups.css";
 
-function JoinTables() {
+function Cards() {
   return (
     <div className="groups-container">
       {groups.map((group) => {
@@ -32,4 +32,4 @@ function JoinTables() {
   );
 }
 
-export default JoinTables;
+export default Cards;
