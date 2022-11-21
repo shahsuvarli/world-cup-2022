@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { GameContext } from "../context/GameContextProvider";
 import "../styles/modal.css";
+import { FaPlay } from "react-icons/fa";
 
 function Modal() {
   const { games, setGames } = useContext(GameContext);
@@ -15,7 +16,25 @@ function Modal() {
     >
       <div className="modal-games-container">
         {games.map((game, index) => {
-          return <div className="match" key={index}>{game.p1.name} - {game.p1r} {game.p2r} - {game.p2.name}</div>;
+          return (
+            <div className="match-container" key={index}>
+              <div className="match-main">
+                <div className="country-name">
+                  <span>{game.p1.name}</span>
+                  <span>{game.p1r}</span>
+                </div>
+                <div className="score">
+                  <span>{game.p2.name}</span>
+                  <span>{game.p2r}</span>
+                </div>
+              </div>
+              <div className="match-media">
+                <a href={game.link}>
+                  <FaPlay size={35} />
+                </a>
+              </div>
+            </div>
+          );
         })}
       </div>
     </div>

@@ -5,7 +5,7 @@ import Modal from "./components/Modal";
 
 function App() {
   return (
-    <GameContextProvider className="main">
+    <GameContextProvider>
       <div className="main">
         <h1>WC Qatar 2022</h1>
         <Cards />

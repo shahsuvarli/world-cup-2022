@@ -12,7 +12,7 @@
   display: flex;
 }
 
-@keyframes modal {
+@keyframes appear {
   from {
     width: 10%;
     height: 10%;
@@ -34,19 +34,56 @@
 .modal-games-container {
   width: 90%;
   height: 70%;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 10px;
   display: flex;
+  background-color: #eee;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  animation: modal 1s 1;
+  animation: appear 1s 1;
+  gap: 3%;
 }
 
-.match {
-  height: 60px;
+.match-container {
+  height: 75px;
   width: 90%;
+  border-radius: 5px;
   text-align: center;
-  font-size: 27px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  gap: 3%;
+}
+
+.match-main {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3% 0;
+}
+
+.match-main > span {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.match-media {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.match-media > * {
+  color: rgb(137, 22, 56);
+}
+
+.country-name,
+.score {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3%;
 }

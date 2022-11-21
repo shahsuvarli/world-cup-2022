@@ -14,7 +14,8 @@
         "p2": { "name": "Ecuador", "code": "ec" },
         "p2r": 2,
         "datetime": "01-01-2022",
-        "status": "not-started"
+        "status": "not-started",
+        "link": "https://www.youtube.com/watch?v=Gd65VyH_Cyg"
       },
       {
         "p1": { "name": "Senegal", "code": "sn" },
