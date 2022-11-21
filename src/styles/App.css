@@ -17,3 +17,7 @@ h1 {
   /* background-color: #891638; */
   background-image: linear-gradient(to bottom right, #891638, #cecacc);
 }
+
+.main>p{
+  color: #fff;
+}

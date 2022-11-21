@@ -20,11 +20,23 @@ function Modal() {
             <div className="match-container" key={index}>
               <div className="match-main">
                 <div className="country-name">
-                  <span>{game.p1.name}</span>
+                  <span>
+                    <img
+                      src={`https://raw.githubusercontent.com/hampusborgos/country-flags/ba2cf4101bf029d2ada26da2f95121de74581a4d/svg/${game.p1.code}.svg`}
+                      alt={game.p1.name}
+                    />
+                    {game.p1.name}
+                  </span>
                   <span>{game.p1r}</span>
                 </div>
                 <div className="score">
-                  <span>{game.p2.name}</span>
+                  <span>
+                    <img
+                      src={`https://raw.githubusercontent.com/hampusborgos/country-flags/ba2cf4101bf029d2ada26da2f95121de74581a4d/svg/${game.p2.code}.svg`}
+                      alt={game.p2.name}
+                    />
+                    {game.p2.name}
+                  </span>
                   <span>{game.p2r}</span>
                 </div>
               </div>
