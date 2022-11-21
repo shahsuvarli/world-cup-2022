@@ -29,9 +29,13 @@ function Modal() {
                 </div>
               </div>
               <div className="match-media">
-                <a href={game.link}>
-                  <FaPlay size={35} />
-                </a>
+                {game.completed ? (
+                  <a href={game.link}>
+                    <FaPlay size={35} />
+                  </a>
+                ) : (
+                  game.datetime
+                )}
               </div>
             </div>
           );

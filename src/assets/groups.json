@@ -14,8 +14,8 @@
         "p2": { "name": "Ecuador", "code": "ec" },
         "p2r": 2,
         "datetime": "01-01-2022",
-        "status": "not-started",
-        "link": "https://www.youtube.com/watch?v=Gd65VyH_Cyg"
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=mRDVrJGJwG8"
       },
       {
         "p1": { "name": "Senegal", "code": "sn" },
@@ -42,7 +42,8 @@
         "p2": { "name": "Iran", "code": "ir" },
         "p2r": 0,
         "datetime": "01-01-2022",
-        "status": "not-started"
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=E66PRyi_GRc"
       },
       {
         "p1": { "name": "USA", "code": "us" },
