@@ -88,8 +88,8 @@
         "p2": { "name": "Wales", "code": "gb-wls" },
         "p2r": 0,
         "datetime": "21-11-2022",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=Olrt4UQ2S7o"
       },
       {
         "p1": { "name": "Wales", "code": "gb-wls" },
