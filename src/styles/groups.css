@@ -19,7 +19,7 @@
   position: relative;
   justify-content: center;
   margin: 5px 0;
-  background-color: rgb(230, 229, 229);
+  background-color: rgb(241, 241, 241);
 }
 
 .countries-container {
@@ -54,11 +54,13 @@
   position: absolute;
   width: 100%;
   display: none;
-  background-color: rgba(0, 255, 255,0.5);
+  background-color: rgba(137, 22, 56);
   justify-content: center;
   align-items: center;
   height: 100%;
   border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .group-container:hover .group-name {
@@ -68,4 +70,14 @@
 img {
   border: 0.5px solid black;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .group-container {
+    width: 300px;
+    height: 300px;
+  }
+  .country-container{
+    width: 40%;
+  }
 }

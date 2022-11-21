@@ -12,6 +12,21 @@
   display: flex;
 }
 
+@keyframes modal {
+  from {
+    width: 10%;
+    height: 10%;
+    opacity: 0.2;
+    color: #fff;
+  }
+  to {
+    width: 90%;
+    height: 70%;
+    opacity: 1;
+    color: #000;
+  }
+}
+
 .hide {
   display: none;
 }
@@ -26,6 +41,7 @@
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  animation: modal 1s 1;
 }
 
 .match {
