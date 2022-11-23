@@ -32,18 +32,17 @@
 }
 
 .modal-games-container {
-  width: 90%;
+  width: 85%;
   height: 70%;
-  /* background-color: #fff; */
   border-radius: 10px;
   display: flex;
   background-color: #eee;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
   animation: appear 1s 1;
   gap: 3%;
+  overflow: scroll;
 }
 
 .match-container {
@@ -54,7 +53,7 @@
   font-size: 20px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 1px solid rgba(137, 22, 56, 0.8);
   gap: 3%;
 }
 
