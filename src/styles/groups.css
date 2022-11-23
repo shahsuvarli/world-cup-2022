@@ -55,13 +55,13 @@
   width: 25%;
   display: flex;
   border-radius: 50%;
-  background-color: rgba(137, 22, 56, 0.5);
+  background-color: rgba(137, 22, 56, 1);
   justify-content: center;
   align-items: center;
   height: 25%;
-  /* border-radius: 5px; */
   color: rgba(255, 255, 255, 1);
   cursor: pointer;
+  border: 1px solid #fff;
 }
 
 .group-container:hover .group-name {
