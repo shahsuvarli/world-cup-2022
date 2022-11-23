@@ -9,6 +9,7 @@ function Modal() {
   const hideModal = () => {
     setGames([]);
   };
+
   return (
     <div
       className={`modal ${games.length ? "show" : "hide"}`}
@@ -27,6 +28,7 @@ function Modal() {
                     />
                     {game.p1.name}
                   </span>
+                  <span>-</span>
                   <span>{game.p1r}</span>
                 </div>
                 <div className="score">
@@ -37,6 +39,7 @@ function Modal() {
                     />
                     {game.p2.name}
                   </span>
+                  <span>-</span>
                   <span>{game.p2r}</span>
                 </div>
               </div>

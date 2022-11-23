@@ -8,6 +8,7 @@ function Cards() {
 
   const handleGames = (games) => {
     setGames(games);
+    // console.log(group.games)
   };
 
   return (

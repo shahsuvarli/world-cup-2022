@@ -33,7 +33,7 @@
 
 .modal-games-container {
   width: 85%;
-  height: 70%;
+  height: 80%;
   border-radius: 10px;
   display: flex;
   background-color: #eee;
@@ -41,7 +41,7 @@
   align-items: center;
   flex-direction: column;
   animation: appear 1s 1;
-  gap: 3%;
+  gap: 2%;
   overflow: scroll;
 }
 
