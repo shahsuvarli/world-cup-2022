@@ -18,8 +18,8 @@
   position: relative;
   justify-content: center;
   margin: 5px 0;
-  /* background-color: rgb(241, 241, 241); */
   background-color: #fff;
+  cursor: pointer;
 }
 
 .countries-container {

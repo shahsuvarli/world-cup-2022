@@ -7,7 +7,7 @@ function App() {
   return (
     <GameContextProvider>
       <div className="main">
-        <h1>WC Qatar 2022</h1>
+        <h1>World Cup Qatar 2022</h1>
         <p>(click on cards to check match details)</p>
         <Cards />
         <Modal />
