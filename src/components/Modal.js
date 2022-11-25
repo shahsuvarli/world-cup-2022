@@ -45,7 +45,7 @@ function Modal() {
               </div>
               <div className="match-media">
                 {game.completed ? (
-                  <a target="_blank" href={game.link}>
+                  <a target="_blank" rel="noreferrer" href={game.link}>
                     <FaPlay size={35} />
                   </a>
                 ) : (
