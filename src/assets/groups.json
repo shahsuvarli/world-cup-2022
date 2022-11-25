@@ -277,7 +277,7 @@
         "p2": { "name": "Costa Rica", "code": "cr" },
         "p2r": 0,
         "datetime": "23-11-2022 20:00",
-        "completed": false,
+        "completed": true,
         "link": "https://www.youtube.com/watch?v=7qe4A4XFt6w"
       },
       {
