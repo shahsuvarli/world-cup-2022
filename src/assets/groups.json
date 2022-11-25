@@ -386,19 +386,21 @@
     "games": [
       {
         "p1": { "name": "Switzerland", "code": "ch" },
-        "p1r": 0,
+        "p1r": 1,
         "p2": { "name": "Cameroon", "code": "cm" },
         "p2r": 0,
         "datetime": "24-11-2022 14:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=-qjY8LieAzs"
       },
       {
         "p1": { "name": "Brazil", "code": "br" },
-        "p1r": 0,
+        "p1r": 2,
         "p2": { "name": "Serbia", "code": "rs" },
         "p2r": 0,
         "datetime": "24-11-2022 23:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=5xut3nFAzpU"
       },
       {
         "p1": { "name": "Cameroon", "code": "cm" },
@@ -449,15 +451,17 @@
         "p2": { "name": "South Korea", "code": "kr" },
         "p2r": 0,
         "datetime": "24-11-2022 17:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=Ja01eBeLCno"
       },
       {
         "p1": { "name": "Portugal", "code": "pt" },
-        "p1r": 0,
+        "p1r": 3,
         "p2": { "name": "Ghana", "code": "gh" },
-        "p2r": 0,
+        "p2r": 2,
         "datetime": "24-11-2022 20:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=CvzjXpGtJ8c"
       },
       {
         "p1": { "name": "South Korea", "code": "kr" },
