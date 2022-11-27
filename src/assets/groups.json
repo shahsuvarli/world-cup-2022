@@ -28,21 +28,21 @@
       },
       {
         "p1": { "name": "Qatar", "code": "qa" },
-        "p1r": 0,
+        "p1r": 1,
         "p2": { "name": "Senegal", "code": "sn" },
-        "p2r": 0,
+        "p2r": 3,
         "datetime": "25-17-2022 17:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=sxOBRTitIEg"
       },
       {
         "p1": { "name": "Netherlands", "code": "nl" },
-        "p1r": 0,
+        "p1r": 1,
         "p2": { "name": "Ecuador", "code": "ec" },
-        "p2r": 0,
+        "p2r": 1,
         "datetime": "25-17-2022 20:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=8B73NNnvbio"
       },
       {
         "p1": { "name": "Ecuador", "code": "ec" },
@@ -95,10 +95,10 @@
         "p1": { "name": "Wales", "code": "gb-wls" },
         "p1r": 0,
         "p2": { "name": "Iran", "code": "ir" },
-        "p2r": 0,
+        "p2r": 2,
         "datetime": "25-11-2022 14:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=mL_L73qVGTM"
       },
       {
         "p1": { "name": "England", "code": "gb-eng" },
@@ -106,8 +106,8 @@
         "p2": { "name": "USA", "code": "us" },
         "p2r": 0,
         "datetime": "25-11-2022 23:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=_W53mnc-dFI"
       },
       {
         "p1": { "name": "Iran", "code": "ir" },
@@ -158,20 +158,21 @@
       },
       {
         "p1": { "name": "Poland", "code": "pl" },
-        "p1r": 0,
+        "p1r": 2,
         "p2": { "name": "Saudi Arabia", "code": "sa" },
         "p2r": 0,
         "datetime": "26-11-2022 17:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=7NPTwnZGrGE"
       },
       {
         "p1": { "name": "Argentina", "code": "ar" },
-        "p1r": 0,
+        "p1r": 2,
         "p2": { "name": "Mexico", "code": "mx" },
         "p2r": 0,
         "datetime": "26-11-2022 23:00",
-        "completed": false
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=Z7Y3om1yDYg"
       },
       {
         "p1": { "name": "Poland", "code": "pl" },
@@ -223,17 +224,19 @@
         "p1": { "name": "Tunisia", "code": "tn" },
         "p1r": 0,
         "p2": { "name": "Australia", "code": "au" },
-        "p2r": 0,
+        "p2r": 1,
         "datetime": "26-11-2022 14:00",
-        "completed": false
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=KsIqvk-8vQo"
       },
       {
         "p1": { "name": "France", "code": "fr" },
-        "p1r": 0,
+        "p1r": 2,
         "p2": { "name": "Denmark", "code": "dk" },
-        "p2r": 0,
+        "p2r": 1,
         "datetime": "26-11-2022 20:00",
-        "completed": false
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=_9mbivjMGzs"
       },
       {
         "p1": { "name": "Tunisia", "code": "tn" },
