@@ -287,17 +287,19 @@
         "p1": { "name": "Japan", "code": "jp" },
         "p1r": 0,
         "p2": { "name": "Costa Rica", "code": "cr" },
-        "p2r": 0,
+        "p2r": 1,
         "datetime": "27-11-2022 14:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=2DKnfgAlGXY"
       },
       {
         "p1": { "name": "Spain", "code": "es" },
-        "p1r": 0,
+        "p1r": 1,
         "p2": { "name": "Germany", "code": "de" },
-        "p2r": 0,
+        "p2r": 1,
         "datetime": "27-11-2022 23:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=zbSxNjZW6ZQ"
       },
       {
         "p1": { "name": "Japan", "code": "jp" },
@@ -348,17 +350,19 @@
         "p1": { "name": "Belgium", "code": "be" },
         "p1r": 0,
         "p2": { "name": "Morocco", "code": "ma" },
-        "p2r": 0,
+        "p2r": 2,
         "datetime": "27-11-2022 17:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=YQlH-s5-TNM"
       },
       {
         "p1": { "name": "Croatia", "code": "hr" },
-        "p1r": 0,
+        "p1r": 4,
         "p2": { "name": "Canada", "code": "ca" },
-        "p2r": 0,
+        "p2r": 1,
         "datetime": "27-11-2022 20:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=QNOAbgQfEYA"
       },
       {
         "p1": { "name": "Croatia", "code": "hr" },
