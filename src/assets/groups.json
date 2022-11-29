@@ -46,21 +46,21 @@
       },
       {
         "p1": { "name": "Ecuador", "code": "ec" },
-        "p1r": 0,
+        "p1r": 1,
         "p2": { "name": "Senegal", "code": "sn" },
-        "p2r": 0,
+        "p2r": 2,
         "datetime": "29-17-2022 19:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=CogSg9-dzXs"
       },
       {
         "p1": { "name": "Netherlands", "code": "nl" },
-        "p1r": 0,
+        "p1r": 2,
         "p2": { "name": "Qatar", "code": "qa" },
         "p2r": 0,
         "datetime": "29-17-2022 19:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=stnRFfdPcRg"
       }
     ]
   },
@@ -113,16 +113,16 @@
         "p1": { "name": "Iran", "code": "ir" },
         "p1r": 0,
         "p2": { "name": "USA", "code": "us" },
-        "p2r": 0,
+        "p2r": 1,
         "datetime": "29-11-2022 23:00",
-        "completed": false,
-        "link": ""
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=YOJ3ZjpuZJc"
       },
       {
         "p1": { "name": "Wales", "code": "gb-wls" },
         "p1r": 0,
         "p2": { "name": "England", "code": "gb-eng" },
-        "p2r": 0,
+        "p2r": 3,
         "datetime": "29-11-2022 23:00",
         "completed": false,
         "link": ""
@@ -411,19 +411,21 @@
       },
       {
         "p1": { "name": "Cameroon", "code": "cm" },
-        "p1r": 0,
+        "p1r": 3,
         "p2": { "name": "Serbia", "code": "rs" },
-        "p2r": 0,
+        "p2r": 3,
         "datetime": "28-11-2022 14:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=drZLQOrR4Pc"
       },
       {
         "p1": { "name": "Brazil", "code": "br" },
-        "p1r": 0,
+        "p1r": 1,
         "p2": { "name": "Switzerland", "code": "ch" },
         "p2r": 0,
         "datetime": "28-11-2022 20:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=tsgHDwY1S9I"
       },
       {
         "p1": { "name": "Serbia", "code": "rs" },
@@ -472,19 +474,21 @@
       },
       {
         "p1": { "name": "South Korea", "code": "kr" },
-        "p1r": 0,
+        "p1r": 2,
         "p2": { "name": "Ghana", "code": "gh" },
-        "p2r": 0,
+        "p2r": 3,
         "datetime": "28-11-2022 17:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=MRhBRv-C7I8"
       },
       {
         "p1": { "name": "Portugal", "code": "pt" },
-        "p1r": 0,
+        "p1r": 2,
         "p2": { "name": "Uruguay", "code": "uy" },
         "p2r": 0,
         "datetime": "24-11-2022 20:00",
-        "completed": false
+        "completed": true,
+        "link":"https://www.youtube.com/watch?v=kW-gEcnupCE"
       }
     ]
   }
