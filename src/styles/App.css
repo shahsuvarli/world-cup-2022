@@ -7,6 +7,7 @@ h1 {
 }
 
 .main {
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,4 +18,27 @@ h1 {
 
 .main > p {
   color: #fff;
+}
+
+/* cards */
+.cards-container {
+  width: 90%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* select component design */
+fieldset {
+  border: 2px solid #891638 !important;
+}
+
+.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input {
+  color: #891638;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
 }

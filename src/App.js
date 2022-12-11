@@ -1,7 +1,7 @@
-import Cards from "./components/Cards";
-import "./styles//App.css";
 import GameContextProvider from "./context/GameContextProvider";
 import Modal from "./components/Modal";
+import LevelSelect from "./components/LevelSelect";
+import Body from "./components/Body";
 
 function App() {
   return (
@@ -9,8 +9,9 @@ function App() {
       <div className="main">
         <h1>World Cup Qatar 2022</h1>
         <p>(click on cards to check match details)</p>
-        <Cards />
-        <Modal />
+        <LevelSelect/>
+        <Body />
+        {/* <Modal /> */}
       </div>
     </GameContextProvider>
   );
