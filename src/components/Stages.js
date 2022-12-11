@@ -5,7 +5,6 @@ import { GameContext } from "../context/GameContextProvider";
 
 function Stages() {
   const { games } = useContext(GameContext);
-  // console.log('games',games || 'cdw')
 
   return (
     <div className="cards-container">
