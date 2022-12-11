@@ -10,7 +10,7 @@ function Stages() {
   return (
     <div className="cards-container">
       {games.length ||
-        games.map(
+        games?.map(
           (game, index) => <div>{game}</div>
           // <MatchCard game={game} key={index} />
         )}
