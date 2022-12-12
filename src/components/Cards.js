@@ -3,19 +3,20 @@ import "../styles/groups.css";
 import { GameContext } from "../context/GameContextProvider";
 
 function Cards() {
-  const { games, setOpen } = useContext(GameContext);
+  const { setGames, setOpen, groups } = useContext(GameContext);
 
-  const handleGames = (games) => {
+  const handleGames = (index) => {
+    setGames(groups.groups[index].games);
     setOpen(true);
   };
 
   return (
     <div className="groups-container">
-      {games?.map((group, index) => (
+      {groups.groups.map((group, index) => (
         <div
           key={index}
           className="group-container"
-          onClick={() => handleGames(group.games)}
+          onClick={() => handleGames(index)}
         >
           <span className="group-name">{group.name}</span>
           <div className="countries-container">

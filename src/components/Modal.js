@@ -13,7 +13,6 @@ function Modal() {
   return (
     <div className={`modal ${open ? "show" : "hide"}`} onClick={hideModal}>
       <div className="modal-games-container">
-        hello world
         {games?.map((game, index) => {
           return <MatchCard game={game} key={index} />;
         })}

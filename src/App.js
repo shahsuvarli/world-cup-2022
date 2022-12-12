@@ -9,9 +9,9 @@ function App() {
       <div className="main">
         <h1>World Cup Qatar 2022</h1>
         <p>(click on cards to check match details)</p>
-        <LevelSelect/>
+        <LevelSelect />
         <Body />
-        {/* <Modal /> */}
+        <Modal />
       </div>
     </GameContextProvider>
   );

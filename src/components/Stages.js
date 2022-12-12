@@ -8,11 +8,9 @@ function Stages() {
 
   return (
     <div className="cards-container">
-      {games.length ||
-        games?.map(
-          (game, index) => <div>{game}</div>
-          // <MatchCard game={game} key={index} />
-        )}
+      {games?.map((game, index) => (
+        <MatchCard game={game} key={index} />
+      ))}
     </div>
   );
 }

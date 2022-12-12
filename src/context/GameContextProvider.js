@@ -8,6 +8,7 @@ function GameContextProvider({ children }) {
   const [data, setData] = useState(source);
   const [games, setGames] = useState();
   const [open, setOpen] = useState(false);
+  const [groups, setGroups] = useState(data[0]);
 
   return (
     <GameContext.Provider
@@ -20,6 +21,8 @@ function GameContextProvider({ children }) {
         setData,
         open,
         setOpen,
+        groups,
+        setGroups,
       }}
     >
       {children}

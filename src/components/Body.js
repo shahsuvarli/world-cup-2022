@@ -13,8 +13,6 @@ function Body() {
         return <Home />;
       case 0:
         return <Cards />;
-      // case 3:
-      //   return <Stages />;
       default:
         return <Stages />;
     }
