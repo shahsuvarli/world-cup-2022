@@ -651,12 +651,12 @@
     "games": [
       {
         "p1": { "name": "Argentina", "code": "ar" },
-        "p1r": "",
+        "p1r": 3,
         "p2": { "name": "Croatia", "code": "hr" },
-        "p2r": "",
+        "p2r": 0,
         "datetime": "13-12-2022 23:00",
-        "completed": false,
-        "link": "https://www.youtube.com/watch?v=KiHN0SxHY_k"
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=cdUP-vwnDmc"
       },
       {
         "p1": { "name": "France", "code": "fr" },

@@ -31,9 +31,7 @@ export default function LevelSelect() {
           sx={{ borderRadius: 10, color: "#fff", background: "#fff" }}
           onChange={handleChange}
         >
-          <MenuItem value="none" disabled>
-            Select
-          </MenuItem>
+          <MenuItem value="none">Home</MenuItem>
           {data.map((stage) => (
             <MenuItem value={stage.id} key={stage.id}>
               {stage.stage}
