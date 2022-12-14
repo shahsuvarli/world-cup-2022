@@ -12,7 +12,6 @@ function GroupStage() {
 
   return (
     <div className="groups-container">
-
       {groups.groups.map((group, index) => (
         <div
           key={index}

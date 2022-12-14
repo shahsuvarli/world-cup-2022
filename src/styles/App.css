@@ -35,9 +35,9 @@ body {
   padding: 20px 0px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 /* select component design */
@@ -50,4 +50,9 @@ fieldset {
   font-weight: bold;
   text-align: center;
   font-size: 17px;
+}
+
+.cover-image {
+  width: 100%;
+  max-width: 550px;
 }

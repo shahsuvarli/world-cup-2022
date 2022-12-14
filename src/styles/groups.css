@@ -73,11 +73,15 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .group-container {
-    width: 300px;
-    height: 300px;
+  .groups-container {
+    justify-content: center;
   }
-  .country-container{
+  .group-container {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+  }
+  .country-container {
     width: 40%;
   }
 }
