@@ -3,7 +3,7 @@ import MatchCard from "./MatchCard";
 import "../styles/App.css";
 import { GameContext } from "../context/GameContextProvider";
 
-function Stages() {
+function OtherStages() {
   const { games } = useContext(GameContext);
 
   return (
@@ -15,4 +15,4 @@ function Stages() {
   );
 }
 
-export default Stages;
+export default OtherStages;

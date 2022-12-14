@@ -5,7 +5,7 @@ import FormControl from "@mui/material/FormControl";
 import { Select } from "@mui/material";
 import { GameContext } from "../context/GameContextProvider";
 
-export default function LevelSelect() {
+export default function StageSelect() {
   const { id, setId, data, setGames } = React.useContext(GameContext);
 
   const handleChange = (event) => {
@@ -22,7 +22,13 @@ export default function LevelSelect() {
   }, [id, data, setGames]);
 
   return (
-    <Box sx={{ maxWidth: 420, width: "80%" }}>
+    <Box
+      sx={{
+        maxWidth: 420,
+        width: "80%",
+        margin: id === "none" ? "50px 0" : "auto",
+      }}
+    >
       <FormControl fullWidth>
         <Select
           labelId="demo-simple-select-label"

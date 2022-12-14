@@ -1,16 +1,16 @@
 import { GameContext } from "./context/GameContextProvider";
 import Modal from "./components/Modal";
-import LevelSelect from "./components/LevelSelect";
+import StageSelect from "./components/StageSelect";
 import Body from "./components/Body";
 import { useContext } from "react";
 
 function App() {
   const { id } = useContext(GameContext);
   return (
-    <div className="main home">
+    <div className={id === "none" ? "home" : "main"}>
       <h1>World Cup Qatar 2022</h1>
-      <p>(click on cards to check match details)</p>
-      <LevelSelect />
+      {id === 0 ? <p>(click on cards to see group games)</p> : ""}
+      <StageSelect />
       <Body />
       <Modal />
     </div>

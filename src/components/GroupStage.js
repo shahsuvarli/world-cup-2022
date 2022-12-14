@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "../styles/groups.css";
 import { GameContext } from "../context/GameContextProvider";
 
-function Cards() {
+function GroupStage() {
   const { setGames, setOpen, groups } = useContext(GameContext);
 
   const handleGames = (index) => {
@@ -12,6 +12,7 @@ function Cards() {
 
   return (
     <div className="groups-container">
+
       {groups.groups.map((group, index) => (
         <div
           key={index}
@@ -41,4 +42,4 @@ function Cards() {
   );
 }
 
-export default Cards;
+export default GroupStage;

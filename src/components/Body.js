@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { GameContext } from "../context/GameContextProvider";
-import Cards from "./Cards";
+import GroupStage from "./GroupStage";
 import Home from "./Home";
-import Stages from "./Stages";
+import OtherStages from "./OtherStages";
 
 function Body() {
   const { id } = useContext(GameContext);
@@ -12,9 +12,9 @@ function Body() {
       case "none":
         return <Home />;
       case 0:
-        return <Cards />;
+        return <GroupStage />;
       default:
-        return <Stages />;
+        return <OtherStages />;
     }
   }
 
