@@ -28,7 +28,8 @@ function GroupStage() {
                   id={`id-${index}`}
                 >
                   <img
-                    src={`https://raw.githubusercontent.com/hampusborgos/country-flags/ba2cf4101bf029d2ada26da2f95121de74581a4d/svg/${country.code}.svg`}
+                    style={{ borderRadius: 5, border: "0.2px solid #891638" }}
+                    src={`https://flagicons.lipis.dev/flags/4x3/${country.code}.svg`}
                     alt={country.name}
                   />
                 </div>

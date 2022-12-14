@@ -8,7 +8,7 @@ function MatchCard({ game }) {
         <div className="country-name">
           <span>
             <img
-              src={`https://raw.githubusercontent.com/hampusborgos/country-flags/ba2cf4101bf029d2ada26da2f95121de74581a4d/svg/${game.p1?.code}.svg`}
+              src={`https://flagicons.lipis.dev/flags/4x3/${game.p1?.code}.svg`}
               alt={game.p1?.name}
             />
             {game.p1?.name}
@@ -19,7 +19,7 @@ function MatchCard({ game }) {
         <div className="score">
           <span>
             <img
-              src={`https://raw.githubusercontent.com/hampusborgos/country-flags/ba2cf4101bf029d2ada26da2f95121de74581a4d/svg/${game.p2?.code}.svg`}
+              src={`https://flagicons.lipis.dev/flags/4x3/${game.p2?.code}.svg`}
               alt={game.p2?.name}
             />
             {game.p2?.name}
