@@ -675,12 +675,12 @@
     "games": [
       {
         "p1": { "name": "Argentina", "code": "ar" },
-        "p1r": 0,
+        "p1r": "3 (4)",
         "p2": { "name": "France", "code": "fr" },
-        "p2r": 0,
-        "datetime": "18-12-2022 23:00",
-        "completed": false,
-        "link": "https://www.youtube.com/watch?v=KfaMVPlOl38"
+        "p2r": "3 (2)",
+        "datetime": "18-12-2022 19:00",
+        "completed": true,
+        "link": "https://youtu.be/5L5ro2N0inI"
       }
     ]
   }
