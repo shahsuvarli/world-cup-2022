@@ -10,8 +10,8 @@ function App() {
   return (
     <div className={id === "none" ? "home" : "main"}>
       <h1>World Cup Qatar 2022</h1>
-      {id === 0 ? <p>(click on cards to see group games)</p> : ""}
-      <img src={cover} alt="cover" className="cover-image"/>
+      {!id && <p>(click on cards to see group games)</p>}
+      <img src={cover} alt="cover" className="cover-image" />
       <StageSelect />
       <Body />
       <Modal />

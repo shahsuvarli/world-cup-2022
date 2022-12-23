@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
+import PropTypes from "prop-types";
 
 function MatchCard({ game }) {
   return (
@@ -42,3 +43,7 @@ function MatchCard({ game }) {
 }
 
 export default MatchCard;
+
+MatchCard.propTypes = {
+  game: PropTypes.object,
+};
