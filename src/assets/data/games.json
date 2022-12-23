@@ -660,12 +660,12 @@
       },
       {
         "p1": { "name": "France", "code": "fr" },
-        "p1r": "",
+        "p1r": 2,
         "p2": { "name": "Morocco", "code": "ma" },
-        "p2r": "",
+        "p2r": 0,
         "datetime": "14-12-2022 23:00",
-        "completed": false,
-        "link": "https://www.youtube.com/watch?v=KiHN0SxHY_k"
+        "completed": true,
+        "link": "https://www.youtube.com/watch?v=KfaMVPlOl38"
       }
     ]
   },
@@ -675,12 +675,12 @@
     "games": [
       {
         "p1": { "name": "Argentina", "code": "ar" },
-        "p1r": 0,
-        "p2": { "name": "XXX", "code": "xx" },
-        "p2r": 0,
-        "datetime": "18-12-2022 23:00",
-        "completed": false,
-        "link": "https://www.youtube.com/watch?v=cdUP-vwnDmc"
+        "p1r": "3 (4)",
+        "p2": { "name": "France", "code": "fr" },
+        "p2r": "3 (2)",
+        "datetime": "18-12-2022 19:00",
+        "completed": true,
+        "link": "https://youtu.be/5L5ro2N0inI"
       }
     ]
   }
